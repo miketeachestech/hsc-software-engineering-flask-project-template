@@ -105,6 +105,8 @@ The code follows **good design principles** such as separation of concerns (rout
 - Admin access is controlled via the `is_admin` boolean in the `User` model.
 - You can add your own styles in `static/styles.css`.
 - To change the logo or favicon, replace files in `static/images/`.
+- This project could be extended with **unit testing** to check that routes, forms, and login functionality work correctly. A good tool for this in Python is [`pytest`](https://docs.pytest.org/), which makes it easy to write and run test cases.
+- For code quality and consistency, consider using **`pylint`** (for catching errors and enforcing best practices) and **`black`** (a code formatter that keeps your code clean and uniform).
 
 ## Flask & Jinja Glossary
 
