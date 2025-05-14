@@ -1,6 +1,6 @@
 # Flask Web App Template
 
-A beginner-friendly starter project for building a secure, login-enabled Flask web application. It incorporates technologies and design principles aligned with the NESA HSC Software Engineering course. Try using this as a foundation to extend/create your own full-featured app.
+A beginner-friendly starter project scaffold/template for building a secure, login-enabled Flask web application. It incorporates technologies and design principles aligned with the NESA HSC Software Engineering course. Try using this as a foundation to extend/create your own full-featured app.
 
 Disclaimer: This project is provided as-is for educational purposes. You use it at your own risk. I am not a teacher and am not affiliated with NESA or any official curriculum body.
 

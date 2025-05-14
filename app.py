@@ -78,7 +78,7 @@ def login():
         # Check if user exists and password is correct
         user = User.query.filter_by(email=form.email.data).first()
         if user and user.check_password(form.password.data):
-            login_user(user)  # Log in the user (optionally with remember me)
+            login_user(user)  # Log in the user
             return redirect(url_for("dashboard"))
         else:
             flash("Invalid email or password", "danger")
